@@ -23,6 +23,6 @@ public class Level2 {
             default: 
                 level = 'E';
         }
-        System.out.printf("�o�����šG%c%n", level);
+        System.out.printf("得分等級: %c%n", level);
     }
 }
