@@ -9,6 +9,8 @@ public class IntegerDemo {
         Integer wrapper2 = Integer.valueOf(data2);
         
         System.out.println(data1 / 3);
+        System.out.println(data1 / 3.0);
+        System.out.println((double)data1 / 3);  //在此算式暫時轉成浮點數，會出現小數點
         System.out.println(wrapper1.doubleValue() / 3);
         System.out.println(wrapper1.compareTo(wrapper2));
     }

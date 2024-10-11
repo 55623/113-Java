@@ -1,8 +1,8 @@
-package cc.openhome;
+
 
 public class XY {
     public static void main(String[] args) {
-        int[][] cords = {
+        int[][] cords = {  //二維陣列
             {1, 2, 3},
             {4, 5, 6}
         };
