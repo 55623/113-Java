@@ -1,9 +1,11 @@
-class CashCard {
+package edu.shu.A111222021;
+
+public class CashCard {
     private String number;
     private int balance;
     private int bonus;
 
-    CashCard(String number, int balance, int bonus) { //建構子
+    public CashCard(String number, int balance, int bonus) { //建構子
         this.number = number;
         this.balance = balance;
         this.bonus = bonus;
@@ -21,11 +23,11 @@ class CashCard {
         return this.bonus;
     }
 
-    void setNumber(String number){
+    public void setNumber(String number){
         this.number = number;
     }
 
-    void store(int money){
+    public void store(int money){
         if(money > 0){
             this.balance += money; //確保是類別裡產生的balance //balance += money; 也行
             if(money >= 1000){
